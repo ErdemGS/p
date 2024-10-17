@@ -1,0 +1,156 @@
+body {
+
+
+
+
+  background-color: black;
+}
+
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "email email email . . . . nav nav nav nav"
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . ."
+    "intro intro intro . foto foto foto . over-mij over-mij over-mij"
+    "intro intro intro . foto foto foto . over-mij over-mij over-mij"
+    "intro intro intro . foto foto foto . over-mij over-mij over-mij"
+    "intro intro intro . foto foto foto . over-mij over-mij over-mij"
+    "intro intro intro . foto foto foto . over-mij over-mij over-mij"
+    ". . . . . . . . . . ."
+    ". . . . . . . . . . ."
+    "footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.email {
+  grid-area: email;
+  color: red;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.intro {
+  grid-area: intro;
+  color: whitesmoke;
+  font-size: 80px;
+  padding-left: 30px;
+}
+
+.foto {
+  grid-area: foto;
+}
+
+.over-mij {
+  grid-area: over-mij;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav {
+  grid-area: nav;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  margin-left: 160px;
+  margin-top: 20px;
+  color: white;
+}
+
+.rood {
+  color: red;
+}
+
+.Software {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.CV {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 100px;
+  margin-top: 30px;
+
+
+
+}
+
+.CV1 {
+
+  background-color: red;
+  text-decoration: none;
+  padding: 10px 25px;
+  color: black;
+  border-radius: 10px;
+}
+
+.project {
+  color: white;
+  text-decoration: none;
+
+}
+
+.Home {
+  display: flex;
+  flex-direction: row-reverse;
+  text-decoration: none;
+  color: white;
+}
+
+.CVLINK {
+  display: flex;
+  flex-direction: row-reverse;
+  text-decoration: none;
+  color: white;
+
+}
+
+.over-mij1{
+color: red;
+font-size: 20px;
+
+}
+
+  .over-mij2{
+    font-size: 20px;
+color: white;
+padding-right: 50px;
+
+
+  }
+
+  .over-mij3{
+font-size: 30px;
+color: white;
+
+
+  }
+
+  .link-contact{
+font-size: 20px;
+text-decoration: none;
+padding: 5px 5px;
+background-color: red;
+color: black;
+border-radius: 10px;
+
+  }
+
+  .over-mij-contact{
+
+
+  }
+    
+  
