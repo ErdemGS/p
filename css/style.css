@@ -91,9 +91,10 @@ body {
 
   background-color: red;
   text-decoration: none;
-  padding: 10px 25px;
+  padding: 5px 5px;
   color: black;
   border-radius: 10px;
+  font-size: 20px;
 }
 
 .project {
@@ -120,19 +121,23 @@ body {
 .over-mij1{
 color: red;
 font-size: 20px;
+padding-bottom: 20px;
+
 
 }
 
   .over-mij2{
-    font-size: 20px;
+    font-size: 30px;
 color: white;
 padding-right: 50px;
+
 
 
   }
 
   .over-mij3{
-font-size: 30px;
+    padding-top: 30px;
+font-size: 20px;
 color: white;
 
 
@@ -147,10 +152,21 @@ color: black;
 border-radius: 10px;
 
   }
-
-  .over-mij-contact{
+   
+  .DownloadCV{
+    color: red;
+    font-size: 20px;
+    
+    
 
 
   }
-    
+  .over-mij-contact{
+    padding-top: 20px;
+
+  }
+
+  .downloadcv{
+    padding-top: 20px;
+  }
   

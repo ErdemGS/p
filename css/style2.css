@@ -1,0 +1,54 @@
+body{
+background-color: black;
+
+}
+
+
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". emial emial emial . . . . . . . navbar navbar navbar"
+      ". . . . . . . . . . . . . ."
+      ". . titel titel titel titel titel titel titel titel titel titel . ."
+      ". . onder-titel onder-titel onder-titel onder-titel onder-titel onder-titel onder-titel onder-titel onder-titel onder-titel . ."
+      ". . . . . . . . . . . . . ."
+      ". . figuren figuren . . . . . . figuren1 figuren1 . ."
+      ". . figuren figuren . . . . . . figuren1 figuren1 . ."
+      ". . . . . . . . . . . . . ."
+      ". . . tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 . . ."
+      ". . . tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 . . ."
+      ". . . tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 . . ."
+      ". . . tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 tegel-1 . . ."
+      ". . . . . . . . . . . . . ."
+      ". . . tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 . . ."
+      ". . . tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 . . ."
+      ". . . tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 . . ."
+      ". . . tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 tegel-2 . . ."
+      ". . . . . . . . . . . . . .";
+  }
+  
+  .emial { grid-area: emial; }
+  
+  .navbar { grid-area: navbar;
+    color: white;
+
+
+
+}
+  
+  .titel { grid-area: titel; }
+  
+  .onder-titel { grid-area: onder-titel; }
+  
+  .figuren { grid-area: figuren; }
+  
+  .figuren1 { grid-area: figuren1; }
+  
+  .tegel-1 { grid-area: tegel-1; }
+  
+  .tegel-2 { grid-area: tegel-2; }
+  
